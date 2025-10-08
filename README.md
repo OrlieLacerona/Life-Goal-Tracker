@@ -9,7 +9,7 @@
 ---
 
 ## Proponent(s)
-**Orlie Louise E. Lacerona** – BSCS  
+**Orlie Louise E. Lacerona** - BSCS  
 
 ---
 
