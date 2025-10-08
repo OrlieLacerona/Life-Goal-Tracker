@@ -1,0 +1,188 @@
+/* ============================================================
+   DARK THEME
+   ============================================================ */
+QWidget {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    font-family: "Segoe UI", "Noto Sans", sans-serif;
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+QPushButton {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border: 1px solid #555;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+QPushButton:hover {
+    background-color: #62c993;
+    color: #000000;
+}
+
+QPushButton:pressed {
+    background-color: #4ab07a;
+}
+
+/* Plus Button (Green) */
+QPushButton#plusButton {
+    background-color: #62c993;
+    color: white;
+    min-width: 40px;
+    max-width: 40px;
+    border-radius: 0px;
+    font-weight: bold;      /* Makes text bold */
+    font-size: 24px;        /* Sets font size, adjust as needed */
+}
+QPushButton#plusButton:hover,
+QPushButton#plusButton:pressed {
+    background-color: #76dba4;
+}
+
+/* Minus Button (Red) */
+QPushButton#minusButton {
+    background-color: #ed6c6a;
+    color: white;
+    min-width: 40px;
+    max-width: 40px;
+    border-radius: 0px;
+    font-weight: bold;      /* Makes text bold */
+    font-size: 24px;        /* Sets font size, adjust as needed */
+}
+QPushButton#minusButton:hover,
+QPushButton#minusButton:pressed {
+    background-color: #f37e7c;
+}
+
+/* ============================================================
+   INPUTS
+   ============================================================ */
+QLineEdit {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border: 1px solid #555;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #62c993;
+}
+
+/* ============================================================
+   SCROLL AREA
+   ============================================================ */
+QScrollArea {
+    background-color: #2d2d2d;
+    border: none;
+}
+
+/* Scrollbars */
+QScrollBar:horizontal {
+    background: #2d2d2d;
+    height: 12px;
+}
+QScrollBar::handle:horizontal {
+    background: #62c993;
+    min-width: 25px;
+    border-radius: 6px;
+}
+QScrollBar::handle:horizontal:hover {
+    background: #76dba4;
+}
+QScrollBar::add-line:horizontal, 
+QScrollBar::sub-line:horizontal {
+    background: none;
+    border: none;
+}
+
+/* ============================================================
+   GOAL BOXES
+   ============================================================ */
+QWidget#progressContent {
+    background-color: #333333;
+    border-radius: 0px;
+}
+
+QWidget#contentBox {
+    background-color: #2d2d2d;
+    border-radius: 4px;
+}
+
+QWidget#wrapper {
+    background-color: #2d2d2d;
+}
+
+/* ============================================================
+   LABELS / TITLES
+   ============================================================ */
+QWidget#progressContent QLabel {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+QWidget#progressContent QLabel#progressTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: transparent;
+    border-bottom: 2px solid #62c993;
+    font-weight: bold;
+}
+
+QLabel#progressTitle {
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffffff;
+}
+
+QLabel#title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 1px;
+    padding: 8px 4px;
+    border-bottom: 2px solid #62c993;
+}
+
+/* ============================================================
+   MISC
+   ============================================================ */
+QScrollBar:vertical {
+    background: #2d2d2d;
+    width: 12px;
+}
+QScrollBar::handle:vertical {
+    background: #62c993;
+    min-height: 25px;
+    border-radius: 6px;
+}
+QScrollBar::handle:vertical:hover {
+    background: #76dba4;
+}
+QScrollBar::add-line:vertical, 
+QScrollBar::sub-line:vertical {
+    background: none;
+    border: none;
+}
+
+QPushButton {
+    outline: none;
+    border: 1px solid #555;
+    background-color: #3a3a3a;
+    color: #fff;
+}
+
+QPushButton:focus {
+    outline: none;
+    border: 1px solid #555; /* Keeps consistent look */
+}
+
+QPushButton:pressed {
+    background-color: #2f2f2f;
+}

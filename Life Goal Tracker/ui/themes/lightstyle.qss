@@ -1,0 +1,190 @@
+/* ============================================================
+    LIGHT THEME
+   ============================================================ */
+QWidget {
+    background-color: #f0f0f0;
+    color: #000000;
+    font-family: "Segoe UI", "Noto Sans", sans-serif;
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+QPushButton {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+QPushButton:hover {
+    background-color: #cce6ff;
+    color: #000000;
+}
+
+QPushButton:pressed {
+    background-color: #99ccff;
+}
+
+/* Plus Button (Green) */
+QPushButton#plusButton {
+    background-color: #62c993;
+    color: white;
+    min-width: 40px;
+    max-width: 40px;
+    border-radius: 0px;
+    font-weight: bold;
+    font-size: 24px;
+}
+QPushButton#plusButton:hover,
+QPushButton#plusButton:pressed {
+    background-color: #76dba4;
+}
+
+/* Minus Button (Red) */
+QPushButton#minusButton {
+    background-color: #ed6c6a;
+    color: white;
+    min-width: 40px;
+    max-width: 40px;
+    border-radius: 0px;
+    font-weight: bold;
+    font-size: 24px;
+}
+QPushButton#minusButton:hover,
+QPushButton#minusButton:pressed {
+    background-color: #f37e7c;
+}
+
+/* ============================================================
+   INPUTS
+   ============================================================ */
+QLineEdit {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #99ccff;
+}
+
+QTextEdit{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+QTextEdit:focus{
+    border: 1px solid #99ccff;
+}
+
+QComboBox{
+    background-color: #ffffff;
+}
+
+
+
+/* ============================================================
+   SCROLL AREA
+   ============================================================ */
+QScrollArea {
+    background-color: #f0f0f0;
+    border: none;
+}
+
+/* Scrollbars */
+QScrollBar:horizontal {
+    background: #e0e0e0;
+    height: 12px;
+}
+QScrollBar::handle:horizontal {
+    background: #99ccff;
+    min-width: 25px;
+    border-radius: 6px;
+}
+QScrollBar::handle:horizontal:hover {
+    background: #99ccff;
+}
+QScrollBar::add-line:horizontal, 
+QScrollBar::sub-line:horizontal {
+    background: none;
+    border: none;
+}
+
+/* ============================================================
+   GOAL BOXES
+   ============================================================ */
+QWidget#progressContent {
+    background-color: #ffffff;
+    border-radius: 0px;
+}
+
+QWidget#contentBox {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+QWidget#wrapper {
+    background-color: #f0f0f0;
+}
+
+/* ============================================================
+   LABELS / TITLES
+   ============================================================ */
+QWidget#progressContent QLabel {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    background-color: transparent;
+}
+
+QWidget#progressContent QLabel#progressTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    background-color: transparent;
+    border-bottom: 2px solid #99ccff;
+    font-weight: bold;
+}
+
+QLabel#progressTitle {
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+}
+
+QLabel#title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 1px;
+    padding: 8px 4px;
+    border-bottom: 2px solid #99ccff;
+}
+
+/* ============================================================
+   MISC
+   ============================================================ */
+QScrollBar:vertical {
+    background: #e0e0e0;
+    width: 12px;
+}
+QScrollBar::handle:vertical {
+    background: #99ccff;
+    min-height: 25px;
+    border-radius: 6px;
+}
+QScrollBar::handle:vertical:hover {
+    background: #99ccff;
+}
+QScrollBar::add-line:vertical, 
+QScrollBar::sub-line:vertical {
+    background: none;
+    border: none;
+}
