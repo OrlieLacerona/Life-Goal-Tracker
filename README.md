@@ -15,7 +15,7 @@
 
 ## Project Overview
 This project is a Life Goal Management System designed to help it's users track and visualize their goals. 
-It allows users to create categories for their goals and descriptions for each tasks. specifically designed with a user-friendly interface. 
+It allows users to create categories for their goals and descriptions for each tasks, specifically designed with a user-friendly interface. 
 This program was developed using Python (PyQt6) and uses QSS (QT Style Sheet) for it's UI styling.
 
 ---
